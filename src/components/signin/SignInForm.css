@@ -1,0 +1,40 @@
+/* SignInForm.css */
+.sign-in-container {
+  background-color: #111;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #e50914;
+  margin-bottom: 20px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #e50914;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff3c26;
+}

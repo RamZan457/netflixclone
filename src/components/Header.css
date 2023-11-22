@@ -1,0 +1,45 @@
+/* Header.css */
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #111;
+}
+
+.logo {
+  color: #e50914;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sign-in-button {
+  background-color: #e50914;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sign-in-button:hover {
+  background-color: #ff3c26;
+}
+
+.sign-in-form-container {
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: #e50914;
+}

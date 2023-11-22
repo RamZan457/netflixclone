@@ -1,0 +1,37 @@
+/* FAQItem.css */
+.faq-item {
+  color: white;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.question {
+  padding: 12px;
+  cursor: pointer;
+  background-color: #2d2d2d;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+}
+
+.answer {
+  background-color: #2d2d2d;
+  padding: 12px;
+}
+
+/* FAQList.css */
+.faq-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* FAQPage.css */
+.faq-page {
+  text-align: center;
+  padding: 40px;
+}
+
+h2 {
+  color: white;
+  margin: 7px;
+}
